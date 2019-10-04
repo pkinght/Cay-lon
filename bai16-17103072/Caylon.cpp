@@ -36,7 +36,6 @@ END_MESSAGE_MAP()
 CaylonView::CaylonView()
 {
 	// TODO: add construction code here
-	k=1;t=1;
 	h=0;
 	a=0;
 }
@@ -145,7 +144,7 @@ void CaylonView::OnLButtonDown(UINT nFlags, CPoint point)
 	{
 		while(a<10)
 		{
-		cay1.caylon(pDC,k,t,h);
+		cay1.caylon(pDC,h);
 		h++;
 		Sleep(800);
 		a++;
