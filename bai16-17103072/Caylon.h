@@ -21,7 +21,7 @@ public:
 	cay cay1;
 	hcn nutbam1,nutbam2;
 	CClientDC *pDC;
-	int k,t,h,a;
+	int h,a;
 // Overrides
 public:
 	virtual void OnDraw(CDC* pDC);  // overridden to draw this view
