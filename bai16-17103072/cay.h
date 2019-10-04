@@ -9,7 +9,7 @@ public:
 	cay(void);
 	void thietlap(CClientDC *pDC);
 	void butvebandau(CClientDC *pDC,int s);
-	void caylon(CClientDC *pDC,int k,int t,int h);
+	void caylon(CClientDC *pDC,int h);
 	void vecaymoi(CClientDC *pDC,int h);
 	void xoacaycu(CClientDC *pDC);
 	~cay(void);
