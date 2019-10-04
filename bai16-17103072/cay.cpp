@@ -70,26 +70,12 @@ void cay::vecaymoi(CClientDC *pDC,int h)
 		Sleep(1000);
 	}
 }
-void cay::caylon(CClientDC *pDC,int k,int t,int h )
+void cay::caylon(CClientDC *pDC,int h)
 {
-	if(k==0)
-		{
-			if(t==0)
-				xoacaycu(pDC);
+			xoacaycu(pDC);
 			la1.lon(pDC,-9,-25,9,-10);
 			than1.lon(pDC,-3,-15,3,0);
 			vecaymoi(pDC,h);
-			k=1;t=1;
-		}
-		else
-		{
-			if(t==1)
-				xoacaycu(pDC);
-			la1.lon(pDC,-9,-25,9,-10);
-			than1.lon(pDC,-3,-15,3,0);
-			vecaymoi(pDC,h);
-			k=0;t=0;
-		}
 }
 void cay::xoacaycu(CClientDC *pDC)
 {
